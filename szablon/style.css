@@ -1,0 +1,58 @@
+body{
+
+    background: lightseagreen;
+
+}
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+height: 150px;
+background: lightgray;
+}
+
+nav{
+display:flex;
+}
+
+nav a {
+   display: flex;
+   /* flex-wrap: wrap; */
+   justify-content: flex-end;
+}
+
+nav a {
+margin: 0 5px;;
+
+}
+section{
+display: flex;
+height: 500px;
+
+
+}
+aside{
+width: 150px;
+height: 500px;
+background: lime;
+
+}
+article{
+width: 700px;
+
+background: lightcyan;
+
+}
+
+#rightpanel {
+    width: 150px;
+    height: 500px;
+    background: lightpink;
+}
+
+footer{
+    height: 150px;
+    background:red;
+}
+
