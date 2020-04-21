@@ -1,0 +1,53 @@
+body{
+
+    background:lightblue;
+    display: flex;
+    justify-content: center;
+}
+section {
+    position: relative;
+}
+main {
+
+    background: lightgoldenrodyellow;
+    width: 1000 px;
+    height: 800 px;
+}
+
+main div {
+
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: lightgray;
+
+}
+
+#a1{
+    background: lightpink;
+    position: absolute;
+    left:0;
+    top:0;
+}
+#a2{
+    background: lightgray;
+    position: absolute;
+    top:50px;
+    left: 50px; */
+    position: absolute;
+    z-index: 10px;
+}
+#a3{
+    background: lightgreen;
+    position: fixed;
+    right:100px;
+    top: 100px;
+}
+#a4{
+    background: lightpink;
+    position: absolute;
+    top: 150px;
+    left:150px;
+    z-index: 40px;
+    /* top: -10px; */
+}

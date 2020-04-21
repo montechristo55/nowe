@@ -1,0 +1,47 @@
+/* selektor znacznika - każdy div */
+div {background: lightblue;
+}
+/* elementy w elementach - każdy li wew każdego ul */
+ul li { margin: 10px;
+}
+
+section li{
+    padding: 10px;
+
+}
+/* formatowanie za pomocą klas */
+.f20 {font-size: 24px;}
+
+#naglowek{font-size: 20 px;}
+
+.p40{ padding: 40px;}
+
+
+
+/* b bezpośrednio w section */
+ section > b {
+     color: yellow
+ }
+
+/* wspólne formatowanie dla section i article */
+section, article {
+    padding; 10 px;
+}
+
+
+/* można również tak: section {
+    width:100 px;
+} 
+article { height: 100 px;
+}*/
+a:hover{background: lightskyblue}
+
+li:nth-child {
+    background: lightcoral
+}
+
+li:nth-child(even){background: lightseagreen}
+/* formatowanie z użyciem id elementu */
+ #naglowek {
+     font-size: 20 px;
+ }
