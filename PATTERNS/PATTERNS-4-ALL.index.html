@@ -1,40 +1,66 @@
-<!-- lang - język strony dla urządzeń innych niż komputer, np. czytnik dla niedowidzących itp.
- -->
 <!DOCTYPE html>
 
-<html lang="en">
+<!-- lang - język strony dla urządzeń innych niż komputer, np. czytnik dla niedowidzących itp.
+ -->
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TYTUŁ STRONY INTERNETOWEJ!!!</title>
+    <!-- char=>charakter (znak), set= zestaw, charset - zestaw znaków używanych na stronie www /sposób kodowania/ -->
+
+    <title>PATTERNS-4-ALL!!!</title>
     <!-- tytuły naszej strony as above odnajdujemy w wyszukiwarce przy pozycjonowaniu strony na google -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--powyżej info dla urządzeń mobilnych  -->
+
     <meta name="description" content="to jest opis mojej strony internetowej, jej całej zawartości">
     <!-- opis pojawiajacy sie w google -->
+
+    <meta name="keywords" content="slowa klucze dla podniesienia pozycjonowania strony"/>
+
     <meta http-equiv="X-UA-Compatibile" content="IE=edge,chrome=1"/>
     <!-- polecenie dla kompatybilności z internetexplore!!! -->
-    <link rel="stylesheet" href="nazwa pliku zrodlowego w css/main.css" type="text/css"/>
-    <!-- link do pliku css -->
+
+    <link rel="stylesheet" href="PATTERNS-4-ALL.css" type="text/css"/>
+    <!-- link do pliku w css==> style.css type= plik tekstowy z rozszerzeniem css-->
+
+    <script src="skrypt.js"></script>
+    <!-- Java to przednami.... -->
 
     <meta name="author" content="Krzysztof Przybylski" />
 
 </head>
 
 <body>
+    
     <main>
+
         <header>
                 TO JEST NAGŁÓWEK!!!
-
-        </header>
-
-        <section>
-
+            <!-- w nagłówku mamy zwykle nawigacje -->
             <h1>naglowek 1</h1>
             <h2>naglowek 2</h2>
             <h3>naglowek 3</h3>
             <h4>naglowek 4</h4>
             <h5>naglowek 5</h5>
             <h6>naglowek 6</h6>
+            <nav>
+                <a href="https://www.google.com/" target="_blank" title="GO TO GOOGLE!">GOOGGLE.COM</a>
+                <!-- odnosnik do strony internetowej, np. google`a; target blank ażeby się otwierała w nowym oknie!!! title to tekst jaki ma sie pojawić po najechaniu kursorem na link--><br>
+                <!-- odnosnik do strony internetowej, np. google`a; target blank ażeby się otwierała w nowym oknie!!! title to tekst jaki ma sie pojawić po najechaniu kursorem na link--><br>
+                <!-- odnosnik do strony internetowej, np. google`a; target blank ażeby się otwierała w nowym oknie!!! title to tekst jaki ma sie pojawić po najechaniu kursorem na link--><br>
+            </nav>
+
+        </header>
+
+        
+
+        <section>
+
+            <aside>
+                Panel lewy
+            </aside>
 
             <!-- <p> to jest akapit w tekście!</p> -->
             <p>
@@ -99,8 +125,11 @@
                 <li>lato</li>
                 <li>jesien</li>
                 <li>zima</li>
+
                 <!-- <li>list item</li> ->
+
         -> CTRL+X to CUT !!!-->
+
                 <!-- ALT i strzałka zmieniaja kolejnośc wiersza w tabeli!!! -->
             </ul>
             <!-- <ol>lista numerowana</ol> -->
@@ -119,13 +148,16 @@
                 beatae
                 molestias quod iusto. Voluptatum, dolor!
             </ol>
+
         </section>
+        
         <section>
+            
             <!-- tabele -->
-            <table border="1">
+            <table border="1" width="1000px"; align="center">
                 <!-- table border to obramowanie -->
                 <tr>
-                    <td colspan="3">1</td>
+                    <td colspan="3" align="center" bgcolor="red">1</td>
                     <td>2</td>
                     <td>3</td>
                     <td>4</td>
@@ -201,33 +233,42 @@
                 <td>5</td>
             </table>
         </section>
+
         <section>
             <h2>
                 ODNOŚNIKI!!<br>
                 <!-- adres bezwzględny!!! -->
-                <a href="https://www.google.com/"> Przejdz do google`a <a>
+                <a href="https://www.google.com/" target="blank;"> Przejdz do google`a <a>
             </h2>
-            <br>
-            <br>
+            <!-- target="blank" azeby strona otwierała sie w nowym oknie -->
+            
+            <br><br>
+
             <!-- adres względny -->
             <a href="szklarnia.html">Perzejdź do szklarnii</a>
-            <br>
-            <br>
+            
+            <br><br>
+
             <a href="https://www.youtube.com/">Go to youtube!</a>
-            <br>
-            <br>
+            
+            <br><br>
+
             ODNOŚNIK DO MAILA:
-            <br>
-            <br>
+            
+            <br><br>
+            
             Napisz do mnie: <a href="mailto:r.brzegowy@gmail.com">r.brzegowy@gmail.com</a>
-            <br>
-            <br>
+            
+            <br><br>
+            
             <!-- target="blank" otwiera adres w nowym oknie!! -->
             <a href="https://www.google.com/" target="blank"> Przejdz do google`a <a>
 
             <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Jakiś odnosnik</a>  
 
         </section>
+
+    
 
     </main>
 
