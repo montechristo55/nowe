@@ -1,6 +1,8 @@
 body{
-
+    display: flex;
     background: lightseagreen;
+    justify-content: center;
+    
 
 }
 main{
@@ -22,8 +24,8 @@ nav a {
    justify-content: flex-end;
 }
 
-nav a {
-margin: 0 5px;;
+nav a:hover {
+background: #333;
 
 }
 section{

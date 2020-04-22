@@ -1,0 +1,63 @@
+body {background: #aaa;
+}
+main{
+    width: 100%;
+}
+header{
+    background: lightskyblue;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    margin: 0 5px;
+    
+}
+section {
+    display: flex;
+    flex-direction: column;
+    min-height:  500px;
+}
+aside {
+    width: 150px;
+    background: lightcoral;
+    order:2;
+
+}
+article { 
+    background: lightcyan;
+    order: 1
+}
+
+#right-panel {
+    display: none;
+    background: lightcyan;
+   
+}
+@media (min-width: 550px;){
+    section{
+        flex-direction: row;
+    }
+    aside {
+        width: 150px;
+        order: unset
+     }
+    
+    article {
+        order: unset;}
+
+
+}
+@media (min-width: 900px;){
+    nav{
+        flex-direction: row;
+    }
+    #right-panel {
+        width: 150px;
+        display: block;
+     }
+
+
+}
